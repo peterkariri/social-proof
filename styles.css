@@ -1,0 +1,149 @@
+body{
+    background-color: hsl(300, 24%, 96%);
+    padding: 60px 30px;
+    margin: 0px;
+    font-family: 'League Spartan', sans-serif;
+}    
+
+.intro-text{
+    text-align: center;
+    color:  hsl(300, 43%, 22%);
+}
+.intro-text > h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.intro-text p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.rating{
+    background-color:hsla(303, 10%, 53% ,0.2) ;
+    border-radius: 12px;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    font-size: 8px;
+    margin-bottom: 15px;
+    height: 45px;
+    
+}
+.rating p{
+    text-align: center;
+}
+.rating img{
+    padding-top: 4px;
+}
+.review{
+    color:white;
+    background-color: hsl(300, 43%, 22%);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.review-head{
+    display: block;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+
+}
+.review-head img{
+   width: 40px;
+   border-radius: 20px;
+}
+.review-head h2 span:last-child{
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+}
+@media screen  and (min-width: 600px) { 
+  .intro{
+    display: flex;
+    
+  }
+  .intro-text{
+    text-align: center;
+    color:  hsl(300, 43%, 22%);
+    
+}
+.intro-text > h1{
+    font-size: 50px;
+    font-weight: 700;
+    width:400px;
+    text-align: left;
+    margin: 60px;
+     
+}
+.intro-text p{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    width: 400px;
+    margin: 60px;
+    color:hsla(300, 41%, 37%,0.3)
+
+}
+.ratings{
+    margin: 120px 150px;
+
+}
+#rating-1{
+    width: 400px;
+    margin-right: 40px;
+}
+#rating-2{
+    margin-left:40px ;
+}
+#rating-3{
+    margin-left: 80px;
+    margin-right: -40px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    
+}
+.rating img{
+  width: 15px;
+  padding:5px;
+  gap:4px;
+  margin-left:5px;
+}
+.rating p{
+    font-size: 13px;
+    margin-left:15px ;
+}
+.section-reviews{
+    display: flex;
+    
+}
+.review{
+    margin-left: 20px;
+    align-items: center;
+    height: 180px;
+}
+#review-2{
+    margin:20px 20px;
+   ;
+}
+#review-3{
+    margin: 40px 5px;
+}
+.review-head {
+    position: relative;
+    
+
+}
+.review-head  h2{
+    position: absolute;
+    bottom:50px;
+    left: 70px;
+    padding-bottom: 25px;
+    font-size: 18px;
+
+}
+.review-text{
+    position: relative;
+    top:20px ;
+}
+}
